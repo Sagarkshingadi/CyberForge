@@ -1,0 +1,40 @@
+================================================================================
+CYBERFORGE LITE — RULE 4 GAP CLOSURE THRESHOLD DECISION
+Analysis on Canonical 10 Seeds (data/canonical)
+================================================================================
+
+CONTEXT & ROOT CAUSE:
+--------------------------------------------------------------------------------
+The Red Team's spec-matched 'slow_brute_force' executes exactly 4 failed login 
+attempts spaced 6 minutes apart (spanning 18 minutes), followed by a success at 
+24 minutes. This completely evades the baseline 3 rules (100.0% evasion rate).
+
+To close this gap, Rule 4 examines an extended 60-minute sliding window. 
+The defender faces a direct detection-vs-disruption trade-off between two thresholds:
+
+--------------------------------------------------------------------------------
+OPTION 1: Threshold >= 4 failures in 60 minutes
+--------------------------------------------------------------------------------
+ • Detection on slow_brute_force : 10/10 caught (Evasion rate drops to 0.0%)
+ • False Positives on Normal Pop : 2.4 false positives per seed (24 total across 10 seeds)
+ • Impact Analysis               : 100% of the false positives hit 'normal_forgetful' 
+                                   users who make 4-5 attempts over the course of an 
+                                   hour to recall their passwords.
+ • Trade-off                     : Full attack coverage at the expense of disrupting 
+                                   forgetful innocent users.
+
+--------------------------------------------------------------------------------
+OPTION 2: Threshold >= 8 failures in 60 minutes
+--------------------------------------------------------------------------------
+ • Detection on slow_brute_force : 0/10 caught (Evasion rate remains 100.0% — MISSED)
+ • False Positives on Normal Pop : 0.0 false positives per seed (0 total across 10 seeds)
+ • Impact Analysis               : Innocent normal traffic remains completely undisturbed. 
+                                   However, because slow_brute_force only conducts 4 attempts, 
+                                   it never accumulates 8 failures and slips past undetected. 
+                                   (Threshold 8 only catches 'low_and_slow_takeover' which has 10 attempts).
+ • Trade-off                     : Zero collateral disruption to innocent users, but 
+                                   completely fails to stop 4-attempt slow brute-force attacks.
+
+================================================================================
+STATUS: Pending decision. Awaiting user selection before proceeding to Step 4.
+================================================================================

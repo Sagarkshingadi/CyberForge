@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Generated output (created by evaluator in Week 4)
+output/
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+
+# Generated experiment runs and local pytest temp data
+.pytest-tmp/
+/data/*
+!/data/sample_events.csv
+!/data/sample_labels.csv
+!/data/canonical/
+!/data/canonical_rule4/
+!/data/canonical_sensitivity/

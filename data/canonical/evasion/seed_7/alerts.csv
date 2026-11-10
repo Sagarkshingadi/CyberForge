@@ -1,0 +1,8 @@
+alert_id,rule_id,user_id,timestamp,event_ids,note
+A000001,RULE1,u0002,2024-01-20T10:00:01,EV_7_00001;EV_7_00002;EV_7_00003;EV_7_00004;EV_7_00005;EV_7_00006;EV_7_00007;EV_7_00008,Rule 1: 8 failed logins for 'u0002' within 5 min. Warrants investigation — does not confirm attack.
+A000002,RULE1,u0002,2024-01-20T10:00:17,EV_7_00002;EV_7_00003;EV_7_00004;EV_7_00005;EV_7_00006;EV_7_00007;EV_7_00008,Rule 1: 7 failed logins for 'u0002' within 5 min. Warrants investigation — does not confirm attack.
+A000003,RULE1,u0002,2024-01-20T10:00:31,EV_7_00003;EV_7_00004;EV_7_00005;EV_7_00006;EV_7_00007;EV_7_00008,Rule 1: 6 failed logins for 'u0002' within 5 min. Warrants investigation — does not confirm attack.
+A000004,RULE1,u0002,2024-01-20T10:00:46,EV_7_00004;EV_7_00005;EV_7_00006;EV_7_00007;EV_7_00008,Rule 1: 5 failed logins for 'u0002' within 5 min. Warrants investigation — does not confirm attack.
+A000005,RULE2,u0002,2024-01-20T10:02:05,EV_7_00001;EV_7_00002;EV_7_00003;EV_7_00004;EV_7_00005;EV_7_00006;EV_7_00007;EV_7_00008;EV_7_00009,Rule 2: 8 failures then success for 'u0002' within 10 min. Warrants investigation — does not confirm attack.
+A000006,RULE1,u0107,2024-01-20T16:00:00,EV_7_00065;EV_7_00066;EV_7_00067;EV_7_00068;EV_7_00069;EV_7_00070,Rule 1: 6 failed logins for 'u0107' within 5 min. Warrants investigation — does not confirm attack.
+A000007,RULE1,u0107,2024-01-20T16:00:20,EV_7_00066;EV_7_00067;EV_7_00068;EV_7_00069;EV_7_00070,Rule 1: 5 failed logins for 'u0107' within 5 min. Warrants investigation — does not confirm attack.

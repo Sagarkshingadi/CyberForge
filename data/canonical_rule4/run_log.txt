@@ -1,0 +1,56 @@
+﻿============================================================
+CyberForge Lite — Full Evaluation (10 seeds) [WITH RULE 4]
+============================================================
+Running 10 seeds × 3 policies …
+
+  Seed 0 ... done
+  Seed 1 ... done
+  Seed 2 ... done
+  Seed 3 ... done
+  Seed 4 ... done
+  Seed 5 ... done
+  Seed 6 ... done
+  Seed 7 ... done
+  Seed 8 ... done
+  Seed 9 ... done
+
+===========================================================================
+ 1. POLICY COMPARISON SUMMARY (Averaged across all 10 simulation seeds)
+===========================================================================
+ • attacks_stopped        : Attacks prevented (higher is better)
+ • normal_users_disrupted : Innocent users blocked by false alarms (lower is better)
+ • total_cost             : Impact penalty points (lower is better)
+---------------------------------------------------------------------------
+                attacks_stopped  normal_users_disrupted  total_cost
+policy                                                             
+always_monitor              0.0                     0.0      4740.0
+always_lock                47.4                    55.4      3244.0
+severity_based             47.4                    55.4       961.0
+---------------------------------------------------------------------------
+
+===========================================================================
+ 2. INTRUSION DETECTION RULE PERFORMANCE (Precision = TP / (TP + FP))
+===========================================================================
+ • tp        : True Positive alerts (caught a real injected attack)
+ • fp        : False Positive alerts (flagged an innocent user's activity)
+ • precision : Accuracy when alerting (1.0 = 100% clean, no false alarms)
+---------------------------------------------------------------------------
+         tp    fp  precision
+rule                        
+RULE1  19.5   0.0      1.000
+RULE2  10.5   0.8      0.934
+RULE3   8.0  51.9      0.133
+RULE4   9.4   2.7      0.783
+---------------------------------------------------------------------------
+
+Sensitivity check …
+
+Variant         Best policy (lowest mean cost)
+--------------------------------------------------
+baseline        severity_based
+lock_x2         severity_based
+lock_x0.5       severity_based
+Generating charts …
+  Charts saved → data\canonical_rule4\charts/
+
+All output written to: data\canonical_rule4/

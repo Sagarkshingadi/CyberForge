@@ -1,0 +1,89 @@
+alert_id,rule_id,user_id,timestamp,event_ids,note
+A000001,RULE3,u0001,2024-01-15T09:04:00,E000121;E000122,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000002,RULE3,u0001,2024-01-15T17:04:36,E000119;E000120,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000003,RULE3,u0040,2024-01-15T18:14:51,E000107;E000108,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000004,RULE3,u0096,2024-01-17T15:43:37,E000935;E000936,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000005,RULE3,u0096,2024-01-18T13:39:23,E001348;E001349,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000006,RULE3,u0113,2024-01-18T13:48:30,E001342;E001343,Rule 3: privilege_change for 'u0113' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000007,RULE3,u0096,2024-01-19T08:55:06,E001745;E001746,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000008,RULE3,u0001,2024-01-19T10:08:50,E001754;E001755,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000009,RULE3,u0071,2024-01-19T11:59:49,E001748;E001749,Rule 3: privilege_change for 'u0071' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000010,RULE3,u0042,2024-01-19T17:37:37,E001752;E001753,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000011,RULE3,u0001,2024-01-19T19:16:52,E001756;E001757,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000012,RULE3,u0151,2024-01-20T03:33:00,E002047;E002048,Rule 3: privilege_change for 'u0151' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000013,RULE3,u0096,2024-01-20T09:08:46,E002061;E002062,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000014,RULE3,u0071,2024-01-22T08:22:12,E002306;E002307;E002308,Rule 3: privilege_change for 'u0071' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000015,RULE3,u0040,2024-01-22T08:24:32,E002300;E002301,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000016,RULE3,u0096,2024-01-22T15:52:06,E002304;E002305,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000017,RULE3,u0042,2024-01-23T12:04:34,E002719;E002720,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000018,RULE3,u0001,2024-01-23T13:04:56,E002721;E002722,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000019,RULE3,u0001,2024-01-23T14:09:29,E002723;E002724,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000020,RULE2,u0089,2024-01-24T04:08:30,E003040;E003041;E003042;E003044,Rule 2: 3 failures then success for 'u0089' within 10 min. Warrants investigation — does not confirm attack.
+A000021,RULE3,u0089,2024-01-24T04:28:30,E003044;E003045,Rule 3: account_change for 'u0089' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000022,RULE3,u0115,2024-01-24T08:40:30,E003118;E003119,Rule 3: privilege_change for 'u0115' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000023,RULE3,u0040,2024-01-24T12:51:44,E003108;E003109,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000024,RULE3,u0071,2024-01-24T15:53:33,E003114;E003115,Rule 3: privilege_change for 'u0071' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000025,RULE1,u0052,2024-01-25T04:21:01,E003434;E003435;E003436;E003437;E003438;E003439;E003440;E003441,Rule 1: 8 failed logins for 'u0052' within 5 min. Warrants investigation — does not confirm attack.
+A000026,RULE1,u0052,2024-01-25T04:21:40,E003435;E003436;E003437;E003438;E003439;E003440;E003441,Rule 1: 7 failed logins for 'u0052' within 5 min. Warrants investigation — does not confirm attack.
+A000027,RULE1,u0052,2024-01-25T04:22:11,E003436;E003437;E003438;E003439;E003440;E003441,Rule 1: 6 failed logins for 'u0052' within 5 min. Warrants investigation — does not confirm attack.
+A000028,RULE1,u0052,2024-01-25T04:22:45,E003437;E003438;E003439;E003440;E003441,Rule 1: 5 failed logins for 'u0052' within 5 min. Warrants investigation — does not confirm attack.
+A000029,RULE2,u0052,2024-01-25T04:26:03,E003434;E003435;E003436;E003437;E003438;E003439;E003440;E003441;E003442,Rule 2: 8 failures then success for 'u0052' within 10 min. Warrants investigation — does not confirm attack.
+A000030,RULE3,u0003,2024-01-25T08:37:45,E003522;E003523,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000031,RULE3,u0113,2024-01-25T08:56:48,E003515;E003516,Rule 3: privilege_change for 'u0113' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000032,RULE3,u0003,2024-01-25T14:20:16,E003520;E003521,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000033,RULE3,u0003,2024-01-25T18:06:31,E003518;E003519,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000034,RULE3,u0040,2024-01-25T18:22:07,E003524;E003525,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000035,RULE3,u0096,2024-01-26T09:43:27,E003957;E003958,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000036,RULE3,u0042,2024-01-26T12:49:23,E003962;E003963,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000037,RULE3,u0003,2024-01-26T14:59:44,E003951;E003952,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000038,RULE3,u0113,2024-01-26T16:00:54,E003948;E003949,Rule 3: privilege_change for 'u0113' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000039,RULE3,u0113,2024-01-26T16:41:04,E003946;E003947,Rule 3: privilege_change for 'u0113' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000040,RULE3,u0003,2024-01-27T08:24:43,E004305;E004306,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000041,RULE3,u0040,2024-01-29T10:26:50,E004501;E004502,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000042,RULE3,u0115,2024-01-29T12:59:47,E004507;E004508,Rule 3: privilege_change for 'u0115' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000043,RULE3,u0003,2024-01-30T16:02:17,E004924;E004925,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000044,RULE3,u0113,2024-01-31T08:24:12,E005337;E005338,Rule 3: privilege_change for 'u0113' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000045,RULE3,u0096,2024-01-31T10:06:46,E005344;E005345,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000046,RULE1,u0200,2024-02-01T04:35:09,E005666;E005667;E005668;E005669;E005670,Rule 1: 5 failed logins for 'u0200' within 5 min. Warrants investigation — does not confirm attack.
+A000047,RULE2,u0200,2024-02-01T04:40:02,E005666;E005667;E005668;E005669;E005670;E005671,Rule 2: 5 failures then success for 'u0200' within 10 min. Warrants investigation — does not confirm attack.
+A000048,RULE3,u0001,2024-02-01T09:14:48,E005756;E005757,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000049,RULE1,u0173,2024-02-02T05:08:10,E006096;E006097;E006098;E006099;E006100;E006101;E006102,Rule 1: 7 failed logins for 'u0173' within 5 min. Warrants investigation — does not confirm attack.
+A000050,RULE1,u0173,2024-02-02T05:08:43,E006097;E006098;E006099;E006100;E006101;E006102,Rule 1: 6 failed logins for 'u0173' within 5 min. Warrants investigation — does not confirm attack.
+A000051,RULE1,u0173,2024-02-02T05:09:17,E006098;E006099;E006100;E006101;E006102,Rule 1: 5 failed logins for 'u0173' within 5 min. Warrants investigation — does not confirm attack.
+A000052,RULE2,u0173,2024-02-02T05:13:00,E006096;E006097;E006098;E006099;E006100;E006101;E006102;E006103,Rule 2: 7 failures then success for 'u0173' within 10 min. Warrants investigation — does not confirm attack.
+A000053,RULE2,u0107,2024-02-02T05:15:40,E006109;E006110;E006111;E006112;E006114,Rule 2: 4 failures then success for 'u0107' within 10 min. Warrants investigation — does not confirm attack.
+A000054,RULE3,u0107,2024-02-02T05:33:40,E006114;E006115,Rule 3: account_change for 'u0107' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000055,RULE3,u0001,2024-02-02T09:11:12,E006205;E006206,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000056,RULE3,u0003,2024-02-03T19:03:57,E006524;E006525,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000057,RULE2,u0162,2024-02-04T02:14:36,E006595;E006596;E006597;E006598;E006600,Rule 2: 4 failures then success for 'u0162' within 10 min. Warrants investigation — does not confirm attack.
+A000058,RULE3,u0162,2024-02-04T02:23:36,E006600;E006601,Rule 3: account_change for 'u0162' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000059,RULE3,u0042,2024-02-05T12:59:08,E006784;E006785,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000060,RULE3,u0071,2024-02-05T13:44:51,E006779;E006780,Rule 3: privilege_change for 'u0071' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000061,RULE3,u0003,2024-02-06T12:22:44,E007199;E007200,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000062,RULE3,u0001,2024-02-06T18:04:41,E007211;E007212,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000063,RULE3,u0086,2024-02-07T03:41:00,E007556;E007557,Rule 3: privilege_change for 'u0086' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000064,RULE3,u0031,2024-02-07T04:30:00,E007551;E007552,Rule 3: privilege_change for 'u0031' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000065,RULE3,u0071,2024-02-07T14:13:58,E007617;E007618,Rule 3: privilege_change for 'u0071' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000066,RULE3,u0042,2024-02-07T17:28:05,E007624;E007626;E007625,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000067,RULE3,u0096,2024-02-08T12:30:45,E008027;E008028,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000068,RULE3,u0040,2024-02-08T15:20:30,E008025;E008026,Rule 3: privilege_change for 'u0040' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000069,RULE3,u0003,2024-02-08T17:42:21,E008021;E008022,Rule 3: privilege_change for 'u0003' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000070,RULE1,u0119,2024-02-09T01:07:03,E008341;E008342;E008343;E008344;E008345;E008346;E008347;E008348,Rule 1: 8 failed logins for 'u0119' within 5 min. Warrants investigation — does not confirm attack.
+A000071,RULE1,u0119,2024-02-09T01:07:33,E008342;E008343;E008344;E008345;E008346;E008347;E008348,Rule 1: 7 failed logins for 'u0119' within 5 min. Warrants investigation — does not confirm attack.
+A000072,RULE1,u0119,2024-02-09T01:08:08,E008343;E008344;E008345;E008346;E008347;E008348,Rule 1: 6 failed logins for 'u0119' within 5 min. Warrants investigation — does not confirm attack.
+A000073,RULE1,u0119,2024-02-09T01:08:46,E008344;E008345;E008346;E008347;E008348,Rule 1: 5 failed logins for 'u0119' within 5 min. Warrants investigation — does not confirm attack.
+A000074,RULE2,u0119,2024-02-09T01:12:05,E008341;E008342;E008343;E008344;E008345;E008346;E008347;E008348;E008349,Rule 2: 8 failures then success for 'u0119' within 10 min. Warrants investigation — does not confirm attack.
+A000075,RULE1,u0136,2024-02-09T01:29:08,E008355;E008356;E008357;E008358;E008359;E008360;E008361,Rule 1: 7 failed logins for 'u0136' within 5 min. Warrants investigation — does not confirm attack.
+A000076,RULE1,u0136,2024-02-09T01:29:42,E008356;E008357;E008358;E008359;E008360;E008361,Rule 1: 6 failed logins for 'u0136' within 5 min. Warrants investigation — does not confirm attack.
+A000077,RULE1,u0136,2024-02-09T01:30:18,E008357;E008358;E008359;E008360;E008361,Rule 1: 5 failed logins for 'u0136' within 5 min. Warrants investigation — does not confirm attack.
+A000078,RULE2,u0136,2024-02-09T01:33:56,E008355;E008356;E008357;E008358;E008359;E008360;E008361;E008362,Rule 2: 7 failures then success for 'u0136' within 10 min. Warrants investigation — does not confirm attack.
+A000079,RULE2,u0079,2024-02-09T03:33:11,E008371;E008372;E008373;E008374;E008375,Rule 2: 4 failures then success for 'u0079' within 10 min. Warrants investigation — does not confirm attack.
+A000080,RULE3,u0079,2024-02-09T03:39:11,E008375;E008376,Rule 3: account_change for 'u0079' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000081,RULE3,u0096,2024-02-09T08:53:53,E008449;E008450,Rule 3: privilege_change for 'u0096' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000082,RULE3,u0042,2024-02-09T13:26:23,E008456;E008457,Rule 3: privilege_change for 'u0042' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000083,RULE1,u0084,2024-02-13T02:52:08,E009357;E009358;E009359;E009360;E009361;E009362;E009363,Rule 1: 7 failed logins for 'u0084' within 5 min. Warrants investigation — does not confirm attack.
+A000084,RULE1,u0084,2024-02-13T02:52:39,E009358;E009359;E009360;E009361;E009362;E009363,Rule 1: 6 failed logins for 'u0084' within 5 min. Warrants investigation — does not confirm attack.
+A000085,RULE1,u0084,2024-02-13T02:53:20,E009359;E009360;E009361;E009362;E009363,Rule 1: 5 failed logins for 'u0084' within 5 min. Warrants investigation — does not confirm attack.
+A000086,RULE2,u0084,2024-02-13T02:57:00,E009357;E009358;E009359;E009360;E009361;E009362;E009363;E009364,Rule 2: 7 failures then success for 'u0084' within 10 min. Warrants investigation — does not confirm attack.
+A000087,RULE3,u0001,2024-02-13T10:22:33,E009475;E009476,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
+A000088,RULE3,u0001,2024-02-13T12:10:51,E009473;E009474,Rule 3: privilege_change for 'u0001' within 30 min of a successful login. Warrants investigation — does not confirm attack.
